@@ -1,35 +1,31 @@
-# Next.js 14 + TypeScript + Tailwind starter
+# Next.js TypeScript Tailwind Starter
 
-This repository has been reset and bootstrapped with a fresh Next.js 14 project using the App Router, TypeScript, and Tailwind CSS.
+A minimal Next.js 14 starter configured with TypeScript, Tailwind CSS, ESLint, Prettier, and Vercel deployment settings.
 
-## Getting started
+## Stack
 
-- Install dependencies:
-  - npm: `npm install`
-  - yarn: `yarn`
-  - pnpm: `pnpm install`
-
-- Run the dev server: `npm run dev`
-- Build for production: `npm run build`
-- Start production server: `npm start`
-- Lint: `npm run lint`
-- Format: `npm run format`
-
-## Tech
-
-- Next.js 14 (App Router)
+- Next.js 14 App Router
 - TypeScript
 - Tailwind CSS
 - ESLint + Prettier
+- Vercel config
 
-## Design tokens
+## Getting started
 
-Global CSS variables define color, spacing, radii, and a fluid type scale (via clamp). Tailwind is configured to read these tokens via the theme extension.
+```bash
+npm install
+npm run dev
+```
 
-## Fonts
+## Scripts
 
-Variable fonts are loaded using `next/font` (Inter and Space Grotesk) and exposed via CSS variables. You can swap in other variable fonts as desired.
+```bash
+npm run build
+npm run start
+npm run lint
+npm run format
+```
 
-## Deployment
+## Notes
 
-A `vercel.json` is provided for Vercel deployments.
+This repository is a starter/template. Rename it when it becomes a real project.
